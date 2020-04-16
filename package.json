@@ -4,7 +4,9 @@
   "description": "Lightweight development node server for serving a web app, providing a fallback for browser history API, loading in the browser, and injecting scripts on the fly.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint *.js lib/*.js && istanbul cover _mocha -- -R spec"
+    "start": "npm run lite",
+     "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
